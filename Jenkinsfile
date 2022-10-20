@@ -9,9 +9,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Hello 2') {
           steps {
-            echo 'Hello again'
+            echo 'Hello again! No error!'
           }
         }
 
