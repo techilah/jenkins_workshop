@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('Execute script') {
+      steps {
+        sh 'dir'
+      }
+    }
+
   }
 }
